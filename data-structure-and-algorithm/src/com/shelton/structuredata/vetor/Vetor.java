@@ -27,4 +27,15 @@ public class Vetor {
         }
      }
 
+        //  Retorna o tamanho de todos elementos ou seja um numero exato de quantos elementos tem no vetor
+     public int tamanho(){
+        return tamanho;
+     }
+
+     // Retorna um elemento  no vetor de acordo com a posicao que o usuario for a  colocar
+     public String  ObterElemento(int posicao){
+        if(posicao < 0) throw new IllegalArgumentException("Argumento invalido!");
+        return elementos[posicao];
+     }
+
 }
