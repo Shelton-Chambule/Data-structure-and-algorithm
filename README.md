@@ -68,5 +68,5 @@ Este repositório é atualizado conforme avanço nas aulas do curso.
 
 ---
 
-**Autor:** MRX (Shelton Chambule)
+**Autor:** (Shelton Chambule)
 
