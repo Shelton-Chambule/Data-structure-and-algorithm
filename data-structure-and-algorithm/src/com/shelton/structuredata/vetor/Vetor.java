@@ -38,4 +38,15 @@ public class Vetor {
         return elementos[posicao];
      }
 
+
+     public int  bsuca(String elemento){
+        if (elemento == null) throw new IllegalArgumentException("O campo nao pode estar vazio!");
+        for (int i =0; i < elementos.length; ++ i){
+            if (elementos[i].equals(elemento)) {
+               return i;
+            }
+        }
+         return -1;
+     }
+
 }
